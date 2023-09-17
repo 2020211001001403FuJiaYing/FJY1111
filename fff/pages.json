@@ -1,0 +1,54 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/approve/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51f",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/image/home.png",
+			"selectedIconPath": "static/image/home_s.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/approve/index",
+			"iconPath": "static/image/approve.png",
+			"selectedIconPath": "static/image/approve_s.png",
+			"text": "审批"
+		},
+		{
+			"pagePath": "pages/me/index",
+			"iconPath": "static/image/me.png",
+			"selectedIconPath": "static/image/me_s.png",
+			"text": "我的"
+		}
+		]
+	}
+
+}
